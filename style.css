@@ -25,32 +25,16 @@ main {
     height: 400px;
 }
 
-<<<<<<< HEAD
 .nav {
     background-color: rgba(1,27,229,.5);
-=======
-footer {
-
-}
-
-
-
-
-div {
-    background-color: rgba(1,27,229,.5) ;
->>>>>>> 4ce5a0e2185b50c4f45d4281777b27fe52b4ca1f
     position: sticky;
     top: 0;
     margin-bottom: 100px;
     z-index: 3;
 }
 
-<<<<<<< HEAD
 
 .nav ul, .nav li {
-=======
-div ul, div li {
->>>>>>> 4ce5a0e2185b50c4f45d4281777b27fe52b4ca1f
     top: 0;
     list-style: none;
     float: left;
