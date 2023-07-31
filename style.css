@@ -5,12 +5,15 @@ html {
 
 body{
     margin: 0;
-    padding: 0:
+    padding: 0;
+    font-family: poppins;
+    color: white;
 }
 
 header {
     width: 100%;
     height: 900px;
+    
    
    
 }
@@ -22,111 +25,113 @@ main {
     height: 400px;
 }
 
-footer {
-
-}
-
-
-
-
-div {
-    background-color: rgba(1,27,229,.5) ;
+.nav {
+    background-color: rgba(1,27,229,.5);
     position: sticky;
     top: 0;
-
+    margin-bottom: 100px;
+    z-index: 3;
 }
 
-div ul, div li {
+
+.nav ul, .nav li {
     top: 0;
     list-style: none;
     float: left;
     
-    
 }
 
-nav li a {
+.nav li a {
     display: block;
-    line-height: 100%;
+    line-height: 1em;
     padding: 0 2em;
     text-decoration: none;
+    text-align: center;
     
-  
-
-
 }
 
-nav li a {
+.nav li a {
     font-family: 'Poppins';
     font-weight: 300;
     
 }
 
-nav li a:link {
+.nav li a:link {
     color: white;
 
+
 }
 
-nav li a:visited {
+.nav li a:visited {
     color: white;
 }
-nav li a:hover {
+.nav li a:hover {
     color: #E5840C;
+  
     
-    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
 
 }
 
-.current {
-    color: #E5840C;
-
-}
-
-li a .dropbtn {
-    background-color: white;
-    color: #E5840C;
-    padding: 16px;
+.dropdown .dropbutton {
+    font-size: inherit;
     border: none;
-    cursor: default; 
+    background-color: inherit;
+    font-family: poppins;
+    margin: 0;
 }
 
-}
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
     z-index: 1;
-  }
+    font-family:poppins;
+}
 
-  .dropdown-content a {
+.dropdown-content a:link {
+    float: none;
     color: #011BE5;
-    padding: 12px 16px;
+    line-height: 2em;
+    padding: .7em 2em;
     text-decoration: none;
     display: block;
     text-align: left;
-
-  }
-
-  .dropdown-content a:hover {
-    background-color: #011BE5;
-    color: #E5840C;
 }
+
+.dropdown-content a:visited {
+    color:#011BE5;
+
+}
+.dropdown-content a:hover {
+    background-color: #E5840C;
+    color: white;
+}
+
+
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+
+}
 
 .bckg {
     background-image: url(images/bjkit.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
-    position: sticky;
+   
     
 }
 
 .fade-img {
     position: relative;
+   
     
 }
 .fade-img::after {
@@ -136,7 +141,46 @@ li a .dropbtn {
     left: 0;
     right: 0;
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-    height: 40%;
+    height: 90%;
+    
+    
+}
+
+.divhead {
+   margin: auto;
+   width: 400px;
+   height: 200px;
+   border: 2px solid white;
+   padding: 50px 50px 0 50px;
+}
+
+.header1 {
+    font-family: roboto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button {
+    background-color:#E5840C;
+    border: none;
+    position: relative;
+    z-index: 4;
+    color: white;
+}
+
+.landingpagetext {
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo {
+    float: left;
+    display: block;
+    width: 5%;
+    padding: 0 50px;
 }
 
 .cf:before,
