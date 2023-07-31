@@ -3,30 +3,27 @@ html {
  
 }
 
-body{
-    margin: 0;
+body {
+    margin: 0 auto;
+    height: 300vh;
     padding: 0;
     font-family: poppins;
-    color: white;
 }
 
 header {
     width: 100%;
-    height: 900px;
-    
-   
-   
+    height: 500px;
 }
-
 
 
 main {
     width: auto;
     height: 400px;
+
 }
 
 .nav {
-    background-color: rgba(1,27,229,.5);
+    background-color: rgba(255,255,255,1);
     position: sticky;
     top: 0;
     margin-bottom: 100px;
@@ -38,12 +35,14 @@ main {
     top: 0;
     list-style: none;
     float: left;
+    display: flex;
+    align-items: center;
+    line-height: 1;
     
 }
 
 .nav li a {
     display: block;
-    line-height: 1em;
     padding: 0 2em;
     text-decoration: none;
     text-align: center;
@@ -53,20 +52,26 @@ main {
 .nav li a {
     font-family: 'Poppins';
     font-weight: 300;
+    text-transform: uppercase;
     
 }
 
 .nav li a:link {
-    color: white;
+    color: #E5840C;
 
 
 }
 
 .nav li a:visited {
-    color: white;
+    color: #E5840C;
 }
 .nav li a:hover {
-    color: #E5840C;
+    color: #011BE5;
+    font-family: playfair display;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+
   
     
 }
@@ -82,17 +87,28 @@ main {
     border: none;
     background-color: inherit;
     font-family: poppins;
-    margin: 0;
+    text-transform: capitalize;
+     
 }
+
+
+.dropbutton {
+    display: flex;
+    align-items: center;
+}
+    
+
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
     z-index: 1;
     font-family:poppins;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .dropdown-content a:link {
@@ -112,6 +128,9 @@ main {
 .dropdown-content a:hover {
     background-color: #E5840C;
     color: white;
+    text-transform: capitalize;
+    font-family: playfair display;
+    font-style: italic;
 }
 
 
@@ -125,6 +144,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
+    background-attachment: fixed;
    
     
 }
@@ -156,6 +176,14 @@ main {
 
 .header1 {
     font-family: roboto;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header2 {
+    font-family: roboto;
     font-size: 30px;
     color: white;
     text-align: center;
@@ -166,7 +194,7 @@ main {
     background-color:#E5840C;
     border: none;
     position: relative;
-    z-index: 4;
+    z-index: 2;
     color: white;
 }
 
@@ -174,12 +202,13 @@ main {
     padding: 0px;
     text-align: center;
     vertical-align: middle;
+    color: white;
 }
 
 .logo {
     float: left;
     display: block;
-    width: 5%;
+    width: 3%;
     padding: 0 50px;
 }
 
@@ -201,9 +230,26 @@ main {
     padding-top: 5%;
     border-bottom: 2px sold white;
     font-weight: 500;
-
 }
 
-font-family: 'Poppins', sans-serif;
+.horange {
+    color: #E5840C;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.serif-ital {
+    font-style: italic;
+    color:#E5840C;
+    font-family: playfair display;
+    font-size: 58px;
+    position: relative;
+    z-index: 2;
+    margin: 0 -15px;
+    text-shadow: 2px 2px 9px #000000;
+}
+
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
