@@ -26,6 +26,33 @@ main {
 
 }
 
+.nav {
+    background-color: rgba(255,255,255,1);
+    position: sticky;
+    margin-bottom: 100px;
+    z-index: 3;
+    top: 0;
+   
+}
+
+.text {
+    color: white;
+    padding: 0 1em;
+    vertical-align: middle;
+    line-height: 2.8;
+    font-size: small;
+    font-weight: 300;
+}
+
+.text2 a {
+    color: white;
+    padding: 0 7em;
+    vertical-align: middle;
+    line-height: 2.8;
+    font-size: small;
+    font-weight: 300;
+
+}
 .navbox {
     position: relative;
     margin-left: auto;
@@ -35,8 +62,8 @@ main {
     height: 40px;
     color: white;
     
-   
 }
+
 
 .navbox:after {
     position: absolute;
@@ -46,38 +73,51 @@ main {
     width: 100%;
     height: 100%;
     transform-origin: left bottom;
-    transform: skewX(10deg);
+    transform: skewX(20deg);
     z-index: -1;
     
 }
 
-
-.nav {
-    background-color: rgba(255,255,255,1);
-    position: sticky;
-    top: 0;
-    margin-bottom: 100px;
-    z-index: 3;
+.quote {
+    display: block;
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #011BE5;
+    border: none;
+    color: white;
 }
 
+.quote {
+    transition-duration: .4s;
+}
+
+.quote:hover {
+    background-color: #E5840C;
+}
+
+.qdiv {
+    padding: 0 35px;
+}
 
 .nav ul, .nav li {
-    top: 0;
+    position: sticky;
+    float: right;
     list-style: none;
-    float: left;
     display: flex;
     align-items: center;
-    line-height: 1;
+    line-height: 4;
     
 }
 
 .nav li a {
     display: block;
-    padding: 0 2em;
+    padding: 0 1em;
     text-decoration: none;
     text-align: center;
     
 }
+
 
 .nav li a {
     font-family: 'Poppins';
@@ -97,13 +137,8 @@ main {
 }
 .nav li a:hover {
     color: #011BE5;
-    font-family: playfair display;
+    font-family: poppins;
     font-weight: 400;
-    font-style: italic;
-    text-transform: capitalize;
-
-  
-    
 }
 
 .dropdown {
@@ -127,7 +162,6 @@ main {
     align-items: center;
 }
     
-
 
 .dropdown-content {
     display: none;
@@ -158,9 +192,8 @@ main {
 .dropdown-content a:hover {
     background-color: #E5840C;
     color: white;
-    text-transform: capitalize;
-    font-family: playfair display;
-    font-style: italic;
+    font-family: poppins;
+    
 }
 
 
@@ -236,10 +269,12 @@ main {
 }
 
 .logo {
+    width: 10%;
+    padding: 0 ;
     float: left;
-    display: block;
-    width: 3%;
-    padding: 0 50px;
+    vertical-align: middle;
+    margin-top: 0;
+    
 }
 
 
@@ -263,14 +298,14 @@ main {
 }
 
 .serif-ital {
-    font-style: italic;
     color:#E5840C;
-    font-family: playfair display;
+    font-family: roboto;
     font-size: 58px;
     position: relative;
     z-index: 2;
     margin: 0 -15px;
     text-shadow: 2px 2px 9px #000000;
+    text-transform: uppercase;
 }
 
 
