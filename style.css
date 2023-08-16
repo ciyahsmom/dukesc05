@@ -9,7 +9,7 @@ html {
 
 body {
     margin: 0 auto;
-    height: 300vh;
+    height: 100vh;
     padding: 0;
     font-family: poppins;
 }
@@ -22,8 +22,20 @@ header {
 
 main {
     width: auto;
-    height: 400px;
+    height: 700px;
+}
 
+.icon-container {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+
+}
+
+footer {
+    width: auto;
+    height: 100px;
+    background-color: #E5840C;
 }
 
 .nav {
@@ -35,6 +47,14 @@ main {
    
 }
 
+.nav1 {
+    background-color: rgba(255,255,255,1);
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    
+   
+}
 .text {
     color: white;
     padding: 0 1em;
@@ -58,7 +78,7 @@ main {
     margin-left: auto;
     margin-right: 0px;
     background-color: #011BE5;
-    width: 55%;
+    width: 62%;
     height: 40px;
     color: white;
     
@@ -208,8 +228,6 @@ main {
     background-repeat: no-repeat;
     background-origin: border-box;
     background-attachment: fixed;
-   
-    
 }
 
 .fade-img {
@@ -225,24 +243,29 @@ main {
     right: 0;
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
     height: 90%;
-    
-    
 }
 
 .divhead {
    margin: auto;
-   width: 400px;
-   height: 200px;
+   width: 500px;
+   height: 150px;
    border: 2px solid white;
-   padding: 50px 50px 0 50px;
+   padding: 40px 50px 0 50px;
+}
+
+.section1 {
+    margin: auto;
+    width: 700px;
+    height: 150px;
 }
 
 .header1 {
     font-family: roboto;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     text-align: center;
     vertical-align: middle;
+    font-weight: 500;
 }
 
 .header2 {
@@ -251,6 +274,7 @@ main {
     color: white;
     text-align: center;
     vertical-align: middle;
+    padding-bottom: 10px;
 }
 
 .button {
@@ -268,16 +292,44 @@ main {
     color: white;
 }
 
+.child {
+    position: absolute;
+    top: 0;
+}
+
+.child-1 {
+    top:-30px;
+    left: 100px;
+}
+
+.child-2 {
+    top: -1px;
+    left: 250px;
+}
+.parent {
+    position: relative;
+}
+
 .logo {
-    width: 10%;
+    width: 100%;
     padding: 0 ;
     float: left;
-    vertical-align: middle;
     margin-top: 0;
     
 }
 
-
+.logocontainer {
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    float: left;
+}
+.textcontainer-nav {
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    float: left;
+}
 
 .p {
     margin: 0 auto;
@@ -295,6 +347,15 @@ main {
     padding: 0px;
     text-align: center;
     vertical-align: middle;
+    margin: 0;
+    line-height: 1;
+}
+.hblue {
+    color: #011BE5;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
 }
 
 .serif-ital {
@@ -334,7 +395,7 @@ main {
 
  .column .img-icon {
     vertical-align: middle;
-    width: 100px;
+    width: 80px;
     padding: 0 4px;
 }
 
