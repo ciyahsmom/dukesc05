@@ -88,9 +88,9 @@
     </header>
 <main class="mainbg fade-img2">
   <div class="icon-container">
-       
+    <hr class="hr1">   
         <section>
-        <h2 class="horange">
+        <h2 class="horange-icon">
             Why Choose us?
         </h2>
         </section>
@@ -133,20 +133,21 @@
 
   <div>
     <form>
-        <h1>Get a Quote</h1>
+        <h1 class="h-form">Get a Quote</h1>
+        <label>Name</label>
          <input type="text" name="Name" placeholder="Full Name" required>
+         <label>Email</label>
          <input type="text" name="Email" placeholder="Email" required>
          <label>Location</label>
          <select name="Area" >
+            <option hidden selected>-Choose Location-</option>
             <option>Baton Rouge Metro-Area</option>
             <option>New Orleans Metro-Area</option>
             <option>Lafayette Area</option>
          </select>
-         <input type="text" name="Message" placeholder="Type Message Here" required>
-         
-
-
-
+         <label>How Can We Help You?</label>
+         <textarea type="text" name="Message" placeholder="Type Message Here" required> </textarea> 
+         <button class="quote2">Submit</button>
     </form>
   </div>
     </main>
