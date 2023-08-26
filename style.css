@@ -48,7 +48,7 @@ main {
 
 footer {
     width: auto;
-    height: 100px;
+    height: 200px;
     background-color: #E5840C;
     
 }
@@ -160,6 +160,7 @@ footer {
     display: flex;
     align-items: center;
     line-height: 4;
+    
     
 }
 
@@ -542,6 +543,39 @@ textarea {
     border: 1px solid #E5840C;
     color: #011BE5;
     font-family: poppins;
+}
+
+.footer-list {
+    text-align: center;
+    margin-top: 10px
+}
+
+.footer-list li {
+    border-right: 1px solid white;
+    
+}
+
+.footer-list li, .footer-list a {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-right: 10px;
+    line-height:1;
+    padding-right: 5px;
+    
+    
+}
+
+li:nth-child(5) {
+    border: none;
+}
+
+.footer-text {
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
 }
  
 .cf:before,
