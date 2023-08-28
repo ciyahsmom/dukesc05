@@ -50,7 +50,7 @@ footer {
     width: auto;
     height: 200px;
     background-color: #E5840C;
-    
+    padding: 7%;
 }
 
 .nav {
@@ -547,11 +547,13 @@ textarea {
 
 .footer-list {
     text-align: center;
-    margin-top: 10px
+    
 }
 
 .footer-list li {
     border-right: 1px solid white;
+    
+    
     
 }
 
@@ -561,9 +563,8 @@ textarea {
     list-style: none;
     color: white;
     margin-right: 10px;
-    line-height:1;
-    padding-right: 5px;
-    
+    line-height: 1;
+    padding-right: 5px; 
     
 }
 
@@ -572,7 +573,7 @@ li:nth-child(5) {
 }
 
 .footer-text {
-    padding: 30px;
+    padding-top: 80px;
     text-align: center;
     vertical-align: middle;
     color: white;
