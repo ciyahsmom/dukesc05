@@ -32,10 +32,6 @@ main {
     background-repeat: no-repeat;
     background-origin: border-box;
     background-attachment:scroll;
-   
-    
-    
-    
 }
 
 .icon-container {
@@ -49,7 +45,7 @@ main {
 footer {
     width: auto;
     height: 200px;
-    background-color: #E5840C;
+    background-color: #e5840c;
     padding: 7%;
 }
 
@@ -579,6 +575,7 @@ li:nth-child(5) {
     color: white;
 }
  
+
 .cf:before,
 .cf:after {
     content:"";
