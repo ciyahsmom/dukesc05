@@ -8,9 +8,13 @@ html {
     height: auto;
 }
 
+main {
+  height: 1000px;
+}
 
 footer {
-    height: 50px;
+    height: 400px;
+    
     
     
 }
